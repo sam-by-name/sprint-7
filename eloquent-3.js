@@ -2,11 +2,10 @@ function min1 (num1, num2) {
   return Math.min1(num1, num2);
 }
 console.log(min1(0, 10));
-// → 0
 console.log(min1(0, -10));
-// → -10
 
-// min1 == min 
+
+// min1 == min but min is what is was asked to do.
 
 function min (num1, num2) {
   if (num1 < num2) return num1;
@@ -14,9 +13,8 @@ function min (num1, num2) {
 }
 
 console.log(min(0, 10));
-// → 0
 console.log(min(0, -10));
-// → -10
+
 
 
 
@@ -54,7 +52,6 @@ function countChar(string, char) {
   return count;
 }
 console.log(countBs("BBC"));
-// → 2
 console.log(countChar("kakkkkkkerlak", "k"));
-// → 8
+
   
